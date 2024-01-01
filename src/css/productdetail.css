@@ -1,0 +1,164 @@
+/* productdetail.css */
+
+.prodetail{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.productDetailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .productImage {
+    flex: 1;
+    margin-right: 20px; 
+  }
+  
+  .productImage img {
+    width: 100%;
+    height: 350px;
+  }
+  
+  .productInfo {
+    flex: 1;
+  }
+  
+  .productInfo h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .productDetails {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .reviewsContainer {
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .reviewsContainer h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .reviewsContainer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reviewsContainer li {
+    margin-bottom: 10px;
+  }
+  
+  .addToCartButton {
+    background-color: #30475e;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 40%;
+  }
+  
+  .addToCartButton:hover {
+    background-color: #30475eb8;
+  }
+  
+  Link {
+    display: block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  Link:hover {
+    text-decoration: underline;
+  }
+
+  .protitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .protitle h1{
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .productPrice {
+    font-size: 18px;
+    color: #333; 
+    margin: 0;
+  }
+  
+  .quantityControl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+  
+  .quantityControl button {
+    background-color: #30475e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .quantityControl span {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  .starRating {
+    display: flex;
+    margin-top: 5px;
+  }
+  
+  .star {
+    color: #fdd83591; 
+    font-size: 1.2em;
+    margin-right: 2px;
+    cursor: pointer;
+  }
+  
+  .selectedStar {
+    color: #fbc02d; 
+  }
+
+  .review{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    padding: 20px;
+  }
+
+  .reviewbtn{
+    width: 30%;
+  }
+
+  .reviewtxtarea{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .reviewHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .userPhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
